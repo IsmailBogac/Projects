@@ -1,0 +1,104 @@
+/* App.css */
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 1rem auto;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+button[type="button"]:hover {
+  background-color: #d32f2f;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+li {
+  background-color: white;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li span {
+  flex: 1;
+  margin-left: 0.5rem;
+}
+
+li button {
+  background-color: transparent;
+  color: #f44336;
+  font-size: 1.2rem;
+}
+
+li button:hover {
+  color: #d32f2f;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
